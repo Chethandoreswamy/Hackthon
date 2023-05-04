@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget{
   }
 }
 
+
 class Home extends StatefulWidget{
   @override
   _HomeState createState() => _HomeState();
@@ -82,7 +83,7 @@ class _HomeState extends State<Home> {
                 TextField(
                     controller: Field1,
                     decoration: InputDecoration(
-                      labelText: "I am grateful",
+                      labelText: "I am grateful for",
                       icon: Icon(Icons.monitor_heart_sharp),
 
                     )
@@ -90,7 +91,7 @@ class _HomeState extends State<Home> {
                 TextField(
                     controller: Field2,
                     decoration: InputDecoration(
-                      labelText: "I am grateful",
+                      labelText: "I am grateful for",
                       icon: Icon(Icons.monitor_heart_sharp), //icon at head of input
                     )
                 ),
@@ -100,7 +101,7 @@ class _HomeState extends State<Home> {
                     decoration: InputDecoration(
                         icon: Icon(Icons.monitor_heart_rounded), //icon at head of input
                         //prefixIcon: Icon(Icons.people), //you can use prefixIcon property too.
-                        labelText: "I am grateful",
+                        labelText: "I am grateful for",
                         //icon at tail of input
                     )
                 ),
